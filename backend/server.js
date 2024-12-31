@@ -11,7 +11,7 @@ app.use(cors()); // Allow Cross-Origin Requests
 app.use(bodyParser.json()); // Parse JSON requests
 
 const openai = new OpenAI({
-  apiKey: "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"// Use environment variable for API key
+  apiKey: ""// Use environment variable for API key
 });
 
 // Endpoint to handle chat requests
